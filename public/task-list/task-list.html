@@ -1,0 +1,8 @@
+<ul class="form-item">
+  <li ng-repeat="item in $ctrl.toDos | filter: $ctrl.search | orderBy: 'completed'" ng-cloak>
+    <span>
+      <input type="checkbox" ng-model="item.completed" ng-change="$ctrl.toggelComplete(item)"/>{{item.task}}
+    </span>
+    <span ng-click="$ctrl.remove(item.id)" class="close-button">X</span>
+  </li>
+</ul>

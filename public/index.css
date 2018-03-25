@@ -1,0 +1,84 @@
+body{
+  background: linear-gradient(to left, #a18cd1,#fbc2eb);
+  height: 100%;
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 48px;
+}
+h1, h3 {
+  font-weight: 100;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.container {
+  background: white;
+  margin: 120px auto 0;
+  border-radius: 5px;
+  padding: 20px;  
+}
+
+.welcome {
+  width: 600px;
+}
+
+.welcome p {
+  text-align: right;
+}
+
+.welcome a, .form a {
+  text-decoration: none;
+  color: pink;
+}
+
+.welcome h3, .welcome h1 {
+  margin: 10px 0;
+}
+
+.form {
+  max-width: 500px;
+  width: 75%;
+}
+
+.form h3, .form h1 {
+  margin: 20px;
+}
+
+.form-item {
+  width: 90%;
+  margin: 10px auto;
+  height: 50px;
+  display: block;
+}
+
+input.form-item {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  font-size: 1em;
+}
+
+ul.form-item {
+  padding: 10px;
+  width: 80%;
+  padding: 30px;
+  height: inherit;
+}
+
+ul.form-item li {
+  margin: 10px 0;
+}
+
+button.form-item {
+  background-color: pink;
+  color: ghostwhite;
+  font-size: 20px;
+  margin-top: 30px
+}
+
+.close-button {
+  float: right;
+}
